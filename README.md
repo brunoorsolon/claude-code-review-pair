@@ -2,8 +2,10 @@
 
 A Linux **cooperative-pull** adapter foundation for a newly launched, exactly
 bound Claude Code session. It uses ordinary local MCP tools, not Channels, a
-permission relay, or terminal input injection. **No actual Claude CLI/model was
-certified.** A synthetic CLI exercises the complete launcher/hook/MCP lifecycle.
+permission relay, or terminal input injection. Claude **2.1.309** launch flags,
+hook-settings schema and exec-form hook mechanics were checked using the official
+binary without login or model calls. **Authenticated two-session operation is
+not certified.** A synthetic CLI exercises the complete launcher/hook/MCP lifecycle.
 
 The broker handles registry, metadata and delivery to a durable session-bound
 inbox only. This package imports the shared runtime from broker commit
