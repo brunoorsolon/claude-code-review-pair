@@ -2,7 +2,7 @@
 
 2026-10-23 cloud Linux, Node 24.19.0 / SQLite 3.53.3:
 `npm run check` and **12/12 tests passed** against shared broker commit
-`e015a6f5d7cc32d0c0a90bd633fab8d94195417a`.
+`ba2219cd87a1feac23e01b23d2c2b3d3bdd65359`.
 
 The end-to-end fixture spawns a **synthetic Claude CLI**, real native-hook helper
 processes, the real standard MCP subprocess, shared HTTP broker and SQLite inbox.

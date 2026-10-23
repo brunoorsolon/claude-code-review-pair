@@ -9,7 +9,7 @@ No real CLI version is certified yet: the launcher checks an explicitly selected
 version before starting; that comparison alone does not certify its behavior.
 
 Use Node 24.19.0, a read-only broker checkout at
-`e015a6f5d7cc32d0c0a90bd633fab8d94195417a`, a private 0700 state directory and an
+`ba2219cd87a1feac23e01b23d2c2b3d3bdd65359`, a private 0700 state directory and an
 owner-only 0600 JSON config (never commit real config/tokens):
 
 ```json

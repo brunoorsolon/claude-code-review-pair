@@ -7,7 +7,7 @@ certified.** A synthetic CLI exercises the complete launcher/hook/MCP lifecycle.
 
 The broker handles registry, metadata and delivery to a durable session-bound
 inbox only. This package imports the shared runtime from broker commit
-`e015a6f5d7cc32d0c0a90bd633fab8d94195417a`, verifying the source bytes before import.
+`ba2219cd87a1feac23e01b23d2c2b3d3bdd65359`, verifying the source bytes before import.
 Use Node **24.19.0** for its SQLite journal; Claude's own runtime is separate.
 
 ## Implemented boundary
